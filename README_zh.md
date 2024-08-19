@@ -34,3 +34,6 @@ UPM 可以被很容易地安装到任意 Kubernetes 集群中，它弥补了 Kub
 ### UPM vs. Platform-as-a-Service (PaaS)
 UPM 不是一个 PaaS 平台，并且也不会提供任何 PaaS 层的能力。
 UPM 分为两层，UPM Platform 是平台管理层，通过调用 Kubernetes 的接口来管理数据库及中间件服务应用定义 。 UPM Engine是执行引擎层，它是一个 Kubernetes 的标准扩展套件，目前包括 TesseractCube 和 Kauntlet 两个Operator。 PaaS 平台可以通过使用 UPM Engine 提供的这些扩展功能，来使得应用部署、管理流程更加强大与高效。
+
+## 文档
+* [架构设计](docs/arch_zh.md)
